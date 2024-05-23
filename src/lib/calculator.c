@@ -1,4 +1,5 @@
 #include "calculator.h"
+#include <math.h>  // Pour la fonction pow()
 
 double _add(double a, double b) {
     return a + b;
@@ -16,6 +17,6 @@ double _div(double a, double b) {
     return a / b;
 }
 
-double _square(double a) {
-    return a * a;  // Calcul du carré de a
+double _carre(double a) {
+    return pow(a, 2);  // Calcul du carré de a
 }
