@@ -5,6 +5,6 @@ double _add(double a, double b);
 double _sub(double a, double b);
 double _mul(double a, double b);
 double _div(double a, double b);
-double _square(double a);  // Prototype de la fonction carré
+double _carre(double a);
 
 #endif // CALCULATOR_H
